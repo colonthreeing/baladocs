@@ -1,6 +1,6 @@
 # Basics of Malverk mods
 
-I'm going to assume you already know the very basics of how to set up a mod, and already have a mod set up. Check out [this page](/basics) for the gist of it.
+I'm going to assume you already know the very basics of how to set up a mod, and already have a mod set up. Check out [this page](</basics of modding>) for the gist of it.
 
 Ok, so here's the basic archetype of a Malverk mod:
 

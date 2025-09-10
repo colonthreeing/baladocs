@@ -8,8 +8,7 @@ The balatro textures are all `71x95` pixels, with a 3 pixel rounding on the corn
 
 When making an AltTexture, you can actually set the size to any pixel dimensions with the `px` and `py` fields (representing width and height respectively).
 
-When making a sprite sheet, Malverk reads left to right, top to bottom. This will be important to remember when setting the sprite keys, unless you use a full sheet of cards where they line up perfectly with vanilla (for more on that, check out [the page on spritesheets](../spritesheets) (Not implemented yet as of writing)).
-
+When making a sprite sheet, Malverk reads left to right, top to bottom. This will be important to remember when setting the sprite keys, unless you use a full sheet of cards where they line up perfectly with vanilla (more on this at a future date ;3)
 ## An Example
 
 Let's take a look at the sprite sheet for my mod Glumbus.
