@@ -3,5 +3,17 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "name": "baladocs",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
