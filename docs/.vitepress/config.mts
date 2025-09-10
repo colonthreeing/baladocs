@@ -1,5 +1,6 @@
 // https://vitepress.dev/reference/site-config
 export default {
+    head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
     title: "Balatro Modding Guide",
     description: ":3ing's balatro modding tutorials",
     themeConfig: {

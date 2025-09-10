@@ -19,7 +19,7 @@ features:
     link: /malverk
   - title: Basics of modding
     details: A guide on how to get set up with Balatro mods.
-    link: /basics
+    link: /basics of modding
   - title: Steamodded reference
     details: A curated list of resources for Steamodded mods.
     link: /steamodded
