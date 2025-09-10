@@ -69,3 +69,13 @@ The order of keys needs to be the same as the order of sprites on the sheet. Tak
 ::: info How do I know what the keys are?
 I plan on eventually making a table for all the keys and what they correspond to, but for now, the best way to find out is by looking at the [VanillaRemade](https://github.com/nh6574/VanillaRemade/blob/main/src/jokers.lua) source code or by ctrl+f'ing in the Balatro localization files. Then, prepend `j_` (short for joker) to the front.
 :::
+
+## Making Your Own
+
+You can use any editing software you like. I personally use [Aseprite](https://www.aseprite.org/), but options like [GIMP](https://www.gimp.org/) and [Krita](https://krita.org/en/) are also good free alternatives. You could also check out [Pixelorama](https://orama-interactive.itch.io/pixelorama), which is an excellent tool for pixel art that I have enjoyed using in the past.
+
+Once you are finished with your texture, save it in your `assets/1x/` folder and ensure a PNG file is used (you can save your editor's file format like .ase or .psd, but you will need to also export a PNG). Then, use the terminal command from the [Project Structure](<./structure>) page to generate the 2x version, or do it manually.
+
+Then it's just a matter of setting up your `AltTexture` and `TexturePack` in your `main.lua` file. You can copy the example above and modify it to fit your needs.
+
+Et voilà! You have your own custom texture pack :3

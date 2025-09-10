@@ -1,6 +1,6 @@
 // https://vitepress.dev/reference/site-config
 export default {
-    head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
+    head: [["link", { rel: "icon", href: "/docs/favicon.ico" }]],
     title: "Balatro Modding Guide",
     description: ":3ing's balatro modding tutorials",
     themeConfig: {
@@ -30,6 +30,10 @@ export default {
                             {
                                 text: "The Basics",
                                 link: "/malverk/tutorial/basics",
+                            },
+                            {
+                                text: "Project Structure",
+                                link: "/malverk/tutorial/structure",
                             },
                             {
                                 text: "Making Your Sprite Sheet",
